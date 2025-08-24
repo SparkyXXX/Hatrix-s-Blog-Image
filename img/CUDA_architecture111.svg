@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 CUDA_architecture111.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.31774in" height="4.42265in"
+		viewBox="0 0 238.877 318.431" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#3f3f3f;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#dac586;font-family:Consolas;font-size:16.6667em}
+		.st4 {fill:#cf4623;font-family:Consolas;font-size:3em}
+		.st5 {fill:#866d8e;font-family:Consolas;font-size:3em}
+		.st6 {fill:#8da27c;font-family:Consolas;font-size:0.499992em}
+		.st7 {fill:#80b3da;font-family:Consolas;font-size:0.833336em}
+		.st8 {font-size:1em}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="4" v:index="1" v:groupContext="backgroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvVisioCreated" v:prompt="" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>背景-1</title>
+		<v:pageProperties width="3.31774" height="4.42265" v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24"
+				v:shadowOffsetX="8.50394" v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape">
+			<title>实心</title>
+			<v:userDefs>
+				<v:ud v:nameU="Background" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+				<v:ud v:nameU="msvVisioCreated" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<rect x="0" y="0" width="238.877" height="318.431" class="st1"/>
+		</g>
+	</g>
+	<g v:mID="0" v:index="2" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape2-3" v:mID="2" v:groupContext="shape" transform="translate(0.375,-200.126)">
+			<title>工作表.2</title>
+			<desc>SM</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="119.055" cy="286.11" width="238.12" height="64.6415"/>
+			<rect x="0" y="253.789" width="238.11" height="64.6415" class="st2"/>
+			<text x="9.09" y="346.11" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>SM</text>		</g>
+		<g id="shape6-6" v:mID="6" v:groupContext="shape" transform="translate(-94.3659,318.056) rotate(-90)">
+			<title>工作表.6</title>
+			<desc>RT Core</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.8392" cy="311.643" width="163.68" height="13.5753"/>
+			<rect x="0" y="304.855" width="163.678" height="13.5753" class="st2"/>
+			<text x="12.56" y="322.44" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RT Core</text>		</g>
+		<g id="group53-9" transform="translate(104.933,-84.6834)" v:mID="53" v:groupContext="group">
+			<title>工作表.53</title>
+			<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(0,-51.5789)">
+				<title>工作表.4</title>
+				<desc>Warp</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="49.6377" cy="311.9" width="99.28" height="13.0626"/>
+				<rect x="0" y="305.368" width="99.2754" height="13.0626" class="st2"/>
+				<text x="10.05" y="322.7" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Warp</text>			</g>
+			<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(4.31483,-35.8807)">
+				<title>工作表.5</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape7-16" v:mID="7" v:groupContext="shape" transform="translate(-231.417,322.984) rotate(-90.9)">
+				<title>工作表.7</title>
+				<desc>Tensor Core</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="20.9167" cy="311.9" width="41.84" height="13.0626"/>
+				<rect x="0" y="305.368" width="41.8334" height="13.0626" class="st2"/>
+				<text x="4.42" y="309.9" class="st7" v:langID="2052"><v:paragraph v:spLine="-0.8" v:horizAlign="1"/><v:tabList/>Tensor<v:lf/><tspan
+							x="9.92" dy="0.8em" class="st8">Core</tspan></text>			</g>
+			<g id="shape8-20" v:mID="8" v:groupContext="shape" transform="translate(4.31483,-20.5139)">
+				<title>工作表.8</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape9-23" v:mID="9" v:groupContext="shape" transform="translate(4.31483,-25.6361)">
+				<title>工作表.9</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape10-26" v:mID="10" v:groupContext="shape" transform="translate(4.31483,-30.7584)">
+				<title>工作表.10</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape25-29" v:mID="25" v:groupContext="shape" transform="translate(20.2479,-35.8807)">
+				<title>工作表.25</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape26-32" v:mID="26" v:groupContext="shape" transform="translate(20.2479,-20.5139)">
+				<title>工作表.26</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape27-35" v:mID="27" v:groupContext="shape" transform="translate(20.2479,-25.6361)">
+				<title>工作表.27</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape28-38" v:mID="28" v:groupContext="shape" transform="translate(20.2479,-30.7584)">
+				<title>工作表.28</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape29-41" v:mID="29" v:groupContext="shape" transform="translate(35.8384,-35.8807)">
+				<title>工作表.29</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape30-44" v:mID="30" v:groupContext="shape" transform="translate(35.8384,-20.5139)">
+				<title>工作表.30</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape31-47" v:mID="31" v:groupContext="shape" transform="translate(35.8384,-25.6361)">
+				<title>工作表.31</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape32-50" v:mID="32" v:groupContext="shape" transform="translate(35.8384,-30.7584)">
+				<title>工作表.32</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape33-53" v:mID="33" v:groupContext="shape" transform="translate(52.1376,-35.8807)">
+				<title>工作表.33</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape34-56" v:mID="34" v:groupContext="shape" transform="translate(52.1376,-20.5139)">
+				<title>工作表.34</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape35-59" v:mID="35" v:groupContext="shape" transform="translate(52.1376,-25.6361)">
+				<title>工作表.35</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape36-62" v:mID="36" v:groupContext="shape" transform="translate(52.1376,-30.7584)">
+				<title>工作表.36</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape37-65" v:mID="37" v:groupContext="shape" transform="translate(4.31483,-15.3668)">
+				<title>工作表.37</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape38-68" v:mID="38" v:groupContext="shape" transform="translate(4.31483,5.68434E-14)">
+				<title>工作表.38</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape39-71" v:mID="39" v:groupContext="shape" transform="translate(4.31483,-5.12225)">
+				<title>工作表.39</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape40-74" v:mID="40" v:groupContext="shape" transform="translate(4.31483,-10.2445)">
+				<title>工作表.40</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape41-77" v:mID="41" v:groupContext="shape" transform="translate(20.2479,-15.3668)">
+				<title>工作表.41</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape42-80" v:mID="42" v:groupContext="shape" transform="translate(20.2479,5.68434E-14)">
+				<title>工作表.42</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape43-83" v:mID="43" v:groupContext="shape" transform="translate(20.2479,-5.12225)">
+				<title>工作表.43</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape44-86" v:mID="44" v:groupContext="shape" transform="translate(20.2479,-10.2445)">
+				<title>工作表.44</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape45-89" v:mID="45" v:groupContext="shape" transform="translate(35.8384,-15.3668)">
+				<title>工作表.45</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape46-92" v:mID="46" v:groupContext="shape" transform="translate(35.8384,5.68434E-14)">
+				<title>工作表.46</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape47-95" v:mID="47" v:groupContext="shape" transform="translate(35.8384,-5.12225)">
+				<title>工作表.47</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape48-98" v:mID="48" v:groupContext="shape" transform="translate(35.8384,-10.2445)">
+				<title>工作表.48</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape49-101" v:mID="49" v:groupContext="shape" transform="translate(52.1376,-15.3668)">
+				<title>工作表.49</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape50-104" v:mID="50" v:groupContext="shape" transform="translate(52.1376,5.68434E-14)">
+				<title>工作表.50</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape51-107" v:mID="51" v:groupContext="shape" transform="translate(52.1376,-5.12225)">
+				<title>工作表.51</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape52-110" v:mID="52" v:groupContext="shape" transform="translate(52.1376,-10.2445)">
+				<title>工作表.52</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+		</g>
+		<g id="group54-113" transform="translate(2.8859,-84.6834)" v:mID="54" v:groupContext="group">
+			<title>工作表.54</title>
+			<g id="shape55-114" v:mID="55" v:groupContext="shape" transform="translate(0,-51.5789)">
+				<title>工作表.55</title>
+				<desc>Warp</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="49.6377" cy="311.9" width="99.28" height="13.0626"/>
+				<rect x="0" y="305.368" width="99.2754" height="13.0626" class="st2"/>
+				<text x="10.05" y="322.7" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Warp</text>			</g>
+			<g id="shape56-117" v:mID="56" v:groupContext="shape" transform="translate(4.31483,-35.8807)">
+				<title>工作表.56</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape57-120" v:mID="57" v:groupContext="shape" transform="translate(-231.417,322.984) rotate(-90.9)">
+				<title>工作表.57</title>
+				<desc>Tensor Core</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="20.9167" cy="311.9" width="41.84" height="13.0626"/>
+				<rect x="0" y="305.368" width="41.8334" height="13.0626" class="st2"/>
+				<text x="4.42" y="309.9" class="st7" v:langID="2052"><v:paragraph v:spLine="-0.8" v:horizAlign="1"/><v:tabList/>Tensor<v:lf/><tspan
+							x="9.92" dy="0.8em" class="st8">Core</tspan></text>			</g>
+			<g id="shape58-124" v:mID="58" v:groupContext="shape" transform="translate(4.31483,-20.5139)">
+				<title>工作表.58</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape59-127" v:mID="59" v:groupContext="shape" transform="translate(4.31483,-25.6361)">
+				<title>工作表.59</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape60-130" v:mID="60" v:groupContext="shape" transform="translate(4.31483,-30.7584)">
+				<title>工作表.60</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape61-133" v:mID="61" v:groupContext="shape" transform="translate(20.2479,-35.8807)">
+				<title>工作表.61</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape62-136" v:mID="62" v:groupContext="shape" transform="translate(20.2479,-20.5139)">
+				<title>工作表.62</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape63-139" v:mID="63" v:groupContext="shape" transform="translate(20.2479,-25.6361)">
+				<title>工作表.63</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape64-142" v:mID="64" v:groupContext="shape" transform="translate(20.2479,-30.7584)">
+				<title>工作表.64</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape65-145" v:mID="65" v:groupContext="shape" transform="translate(35.8384,-35.8807)">
+				<title>工作表.65</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape66-148" v:mID="66" v:groupContext="shape" transform="translate(35.8384,-20.5139)">
+				<title>工作表.66</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape67-151" v:mID="67" v:groupContext="shape" transform="translate(35.8384,-25.6361)">
+				<title>工作表.67</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape68-154" v:mID="68" v:groupContext="shape" transform="translate(35.8384,-30.7584)">
+				<title>工作表.68</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape69-157" v:mID="69" v:groupContext="shape" transform="translate(52.1376,-35.8807)">
+				<title>工作表.69</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape70-160" v:mID="70" v:groupContext="shape" transform="translate(52.1376,-20.5139)">
+				<title>工作表.70</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape71-163" v:mID="71" v:groupContext="shape" transform="translate(52.1376,-25.6361)">
+				<title>工作表.71</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape72-166" v:mID="72" v:groupContext="shape" transform="translate(52.1376,-30.7584)">
+				<title>工作表.72</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape73-169" v:mID="73" v:groupContext="shape" transform="translate(4.31483,-15.3668)">
+				<title>工作表.73</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape74-172" v:mID="74" v:groupContext="shape" transform="translate(4.31483,5.68434E-14)">
+				<title>工作表.74</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape75-175" v:mID="75" v:groupContext="shape" transform="translate(4.31483,-5.12225)">
+				<title>工作表.75</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape76-178" v:mID="76" v:groupContext="shape" transform="translate(4.31483,-10.2445)">
+				<title>工作表.76</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape77-181" v:mID="77" v:groupContext="shape" transform="translate(20.2479,-15.3668)">
+				<title>工作表.77</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape78-184" v:mID="78" v:groupContext="shape" transform="translate(20.2479,5.68434E-14)">
+				<title>工作表.78</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape79-187" v:mID="79" v:groupContext="shape" transform="translate(20.2479,-5.12225)">
+				<title>工作表.79</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape80-190" v:mID="80" v:groupContext="shape" transform="translate(20.2479,-10.2445)">
+				<title>工作表.80</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape81-193" v:mID="81" v:groupContext="shape" transform="translate(35.8384,-15.3668)">
+				<title>工作表.81</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape82-196" v:mID="82" v:groupContext="shape" transform="translate(35.8384,5.68434E-14)">
+				<title>工作表.82</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape83-199" v:mID="83" v:groupContext="shape" transform="translate(35.8384,-5.12225)">
+				<title>工作表.83</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape84-202" v:mID="84" v:groupContext="shape" transform="translate(35.8384,-10.2445)">
+				<title>工作表.84</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape85-205" v:mID="85" v:groupContext="shape" transform="translate(52.1376,-15.3668)">
+				<title>工作表.85</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape86-208" v:mID="86" v:groupContext="shape" transform="translate(52.1376,5.68434E-14)">
+				<title>工作表.86</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape87-211" v:mID="87" v:groupContext="shape" transform="translate(52.1376,-5.12225)">
+				<title>工作表.87</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape88-214" v:mID="88" v:groupContext="shape" transform="translate(52.1376,-10.2445)">
+				<title>工作表.88</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+		</g>
+		<g id="group89-217" transform="translate(103.547,-10.9826)" v:mID="89" v:groupContext="group">
+			<title>工作表.89</title>
+			<g id="shape90-218" v:mID="90" v:groupContext="shape" transform="translate(0,-51.5789)">
+				<title>工作表.90</title>
+				<desc>Warp</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="49.6377" cy="311.9" width="99.28" height="13.0626"/>
+				<rect x="0" y="305.368" width="99.2754" height="13.0626" class="st2"/>
+				<text x="10.05" y="322.7" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Warp</text>			</g>
+			<g id="shape91-221" v:mID="91" v:groupContext="shape" transform="translate(4.31483,-35.8807)">
+				<title>工作表.91</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape92-224" v:mID="92" v:groupContext="shape" transform="translate(-231.417,322.984) rotate(-90.9)">
+				<title>工作表.92</title>
+				<desc>Tensor Core</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="20.9167" cy="311.9" width="41.84" height="13.0626"/>
+				<rect x="0" y="305.368" width="41.8334" height="13.0626" class="st2"/>
+				<text x="4.42" y="309.9" class="st7" v:langID="2052"><v:paragraph v:spLine="-0.8" v:horizAlign="1"/><v:tabList/>Tensor<v:lf/><tspan
+							x="9.92" dy="0.8em" class="st8">Core</tspan></text>			</g>
+			<g id="shape93-228" v:mID="93" v:groupContext="shape" transform="translate(4.31483,-20.5139)">
+				<title>工作表.93</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape94-231" v:mID="94" v:groupContext="shape" transform="translate(4.31483,-25.6361)">
+				<title>工作表.94</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape95-234" v:mID="95" v:groupContext="shape" transform="translate(4.31483,-30.7584)">
+				<title>工作表.95</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape96-237" v:mID="96" v:groupContext="shape" transform="translate(20.2479,-35.8807)">
+				<title>工作表.96</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape97-240" v:mID="97" v:groupContext="shape" transform="translate(20.2479,-20.5139)">
+				<title>工作表.97</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape98-243" v:mID="98" v:groupContext="shape" transform="translate(20.2479,-25.6361)">
+				<title>工作表.98</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape99-246" v:mID="99" v:groupContext="shape" transform="translate(20.2479,-30.7584)">
+				<title>工作表.99</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape100-249" v:mID="100" v:groupContext="shape" transform="translate(35.8384,-35.8807)">
+				<title>工作表.100</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape101-252" v:mID="101" v:groupContext="shape" transform="translate(35.8384,-20.5139)">
+				<title>工作表.101</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape102-255" v:mID="102" v:groupContext="shape" transform="translate(35.8384,-25.6361)">
+				<title>工作表.102</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape103-258" v:mID="103" v:groupContext="shape" transform="translate(35.8384,-30.7584)">
+				<title>工作表.103</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape104-261" v:mID="104" v:groupContext="shape" transform="translate(52.1376,-35.8807)">
+				<title>工作表.104</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape105-264" v:mID="105" v:groupContext="shape" transform="translate(52.1376,-20.5139)">
+				<title>工作表.105</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape106-267" v:mID="106" v:groupContext="shape" transform="translate(52.1376,-25.6361)">
+				<title>工作表.106</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape107-270" v:mID="107" v:groupContext="shape" transform="translate(52.1376,-30.7584)">
+				<title>工作表.107</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape108-273" v:mID="108" v:groupContext="shape" transform="translate(4.31483,-15.3668)">
+				<title>工作表.108</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape109-276" v:mID="109" v:groupContext="shape" transform="translate(4.31483,5.68434E-14)">
+				<title>工作表.109</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape110-279" v:mID="110" v:groupContext="shape" transform="translate(4.31483,-5.12225)">
+				<title>工作表.110</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape111-282" v:mID="111" v:groupContext="shape" transform="translate(4.31483,-10.2445)">
+				<title>工作表.111</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape112-285" v:mID="112" v:groupContext="shape" transform="translate(20.2479,-15.3668)">
+				<title>工作表.112</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape113-288" v:mID="113" v:groupContext="shape" transform="translate(20.2479,5.68434E-14)">
+				<title>工作表.113</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape114-291" v:mID="114" v:groupContext="shape" transform="translate(20.2479,-5.12225)">
+				<title>工作表.114</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape115-294" v:mID="115" v:groupContext="shape" transform="translate(20.2479,-10.2445)">
+				<title>工作表.115</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape116-297" v:mID="116" v:groupContext="shape" transform="translate(35.8384,-15.3668)">
+				<title>工作表.116</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape117-300" v:mID="117" v:groupContext="shape" transform="translate(35.8384,5.68434E-14)">
+				<title>工作表.117</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape118-303" v:mID="118" v:groupContext="shape" transform="translate(35.8384,-5.12225)">
+				<title>工作表.118</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape119-306" v:mID="119" v:groupContext="shape" transform="translate(35.8384,-10.2445)">
+				<title>工作表.119</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape120-309" v:mID="120" v:groupContext="shape" transform="translate(52.1376,-15.3668)">
+				<title>工作表.120</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape121-312" v:mID="121" v:groupContext="shape" transform="translate(52.1376,5.68434E-14)">
+				<title>工作表.121</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape122-315" v:mID="122" v:groupContext="shape" transform="translate(52.1376,-5.12225)">
+				<title>工作表.122</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape123-318" v:mID="123" v:groupContext="shape" transform="translate(52.1376,-10.2445)">
+				<title>工作表.123</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+		</g>
+		<g id="group124-321" transform="translate(1.5,-10.9826)" v:mID="124" v:groupContext="group">
+			<title>工作表.124</title>
+			<g id="shape125-322" v:mID="125" v:groupContext="shape" transform="translate(0,-51.5789)">
+				<title>工作表.125</title>
+				<desc>Warp</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="49.6377" cy="311.9" width="99.28" height="13.0626"/>
+				<rect x="0" y="305.368" width="99.2754" height="13.0626" class="st2"/>
+				<text x="10.05" y="322.7" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Warp</text>			</g>
+			<g id="shape126-325" v:mID="126" v:groupContext="shape" transform="translate(4.31483,-35.8807)">
+				<title>工作表.126</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape127-328" v:mID="127" v:groupContext="shape" transform="translate(-231.417,322.984) rotate(-90.9)">
+				<title>工作表.127</title>
+				<desc>Tensor Core</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="20.9167" cy="311.9" width="41.84" height="13.0626"/>
+				<rect x="0" y="305.368" width="41.8334" height="13.0626" class="st2"/>
+				<text x="4.42" y="309.9" class="st7" v:langID="2052"><v:paragraph v:spLine="-0.8" v:horizAlign="1"/><v:tabList/>Tensor<v:lf/><tspan
+							x="9.92" dy="0.8em" class="st8">Core</tspan></text>			</g>
+			<g id="shape128-332" v:mID="128" v:groupContext="shape" transform="translate(4.31483,-20.5139)">
+				<title>工作表.128</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape129-335" v:mID="129" v:groupContext="shape" transform="translate(4.31483,-25.6361)">
+				<title>工作表.129</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape130-338" v:mID="130" v:groupContext="shape" transform="translate(4.31483,-30.7584)">
+				<title>工作表.130</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape131-341" v:mID="131" v:groupContext="shape" transform="translate(20.2479,-35.8807)">
+				<title>工作表.131</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape132-344" v:mID="132" v:groupContext="shape" transform="translate(20.2479,-20.5139)">
+				<title>工作表.132</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape133-347" v:mID="133" v:groupContext="shape" transform="translate(20.2479,-25.6361)">
+				<title>工作表.133</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape134-350" v:mID="134" v:groupContext="shape" transform="translate(20.2479,-30.7584)">
+				<title>工作表.134</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape135-353" v:mID="135" v:groupContext="shape" transform="translate(35.8384,-35.8807)">
+				<title>工作表.135</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape136-356" v:mID="136" v:groupContext="shape" transform="translate(35.8384,-20.5139)">
+				<title>工作表.136</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape137-359" v:mID="137" v:groupContext="shape" transform="translate(35.8384,-25.6361)">
+				<title>工作表.137</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape138-362" v:mID="138" v:groupContext="shape" transform="translate(35.8384,-30.7584)">
+				<title>工作表.138</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape139-365" v:mID="139" v:groupContext="shape" transform="translate(52.1376,-35.8807)">
+				<title>工作表.139</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape140-368" v:mID="140" v:groupContext="shape" transform="translate(52.1376,-20.5139)">
+				<title>工作表.140</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape141-371" v:mID="141" v:groupContext="shape" transform="translate(52.1376,-25.6361)">
+				<title>工作表.141</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape142-374" v:mID="142" v:groupContext="shape" transform="translate(52.1376,-30.7584)">
+				<title>工作表.142</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape143-377" v:mID="143" v:groupContext="shape" transform="translate(4.31483,-15.3668)">
+				<title>工作表.143</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape144-380" v:mID="144" v:groupContext="shape" transform="translate(4.31483,5.68434E-14)">
+				<title>工作表.144</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape145-383" v:mID="145" v:groupContext="shape" transform="translate(4.31483,-5.12225)">
+				<title>工作表.145</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape146-386" v:mID="146" v:groupContext="shape" transform="translate(4.31483,-10.2445)">
+				<title>工作表.146</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape147-389" v:mID="147" v:groupContext="shape" transform="translate(20.2479,-15.3668)">
+				<title>工作表.147</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape148-392" v:mID="148" v:groupContext="shape" transform="translate(20.2479,5.68434E-14)">
+				<title>工作表.148</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape149-395" v:mID="149" v:groupContext="shape" transform="translate(20.2479,-5.12225)">
+				<title>工作表.149</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape150-398" v:mID="150" v:groupContext="shape" transform="translate(20.2479,-10.2445)">
+				<title>工作表.150</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape151-401" v:mID="151" v:groupContext="shape" transform="translate(35.8384,-15.3668)">
+				<title>工作表.151</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape152-404" v:mID="152" v:groupContext="shape" transform="translate(35.8384,5.68434E-14)">
+				<title>工作表.152</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape153-407" v:mID="153" v:groupContext="shape" transform="translate(35.8384,-5.12225)">
+				<title>工作表.153</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape154-410" v:mID="154" v:groupContext="shape" transform="translate(35.8384,-10.2445)">
+				<title>工作表.154</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape155-413" v:mID="155" v:groupContext="shape" transform="translate(52.1376,-15.3668)">
+				<title>工作表.155</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape156-416" v:mID="156" v:groupContext="shape" transform="translate(52.1376,5.68434E-14)">
+				<title>工作表.156</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape157-419" v:mID="157" v:groupContext="shape" transform="translate(52.1376,-5.12225)">
+				<title>工作表.157</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+			<g id="shape158-422" v:mID="158" v:groupContext="shape" transform="translate(52.1376,-10.2445)">
+				<title>工作表.158</title>
+				<desc>CUDA</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.6299" cy="315.82" width="21.26" height="5.22171"/>
+				<rect x="0" y="313.209" width="21.2599" height="5.22171" class="st2"/>
+				<text x="4.03" y="317.62" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CUDA</text>			</g>
+		</g>
+	</g>
+</svg>
